@@ -133,7 +133,7 @@ impl WindowRenderer for VelloWindowRenderer {
             window_handle.clone(),
             SurfaceRendererConfiguration {
                 usage: wgpu::TextureUsages::RENDER_ATTACHMENT,
-                formats: formats: vec![
+                formats: vec![
                     TextureFormat::Bgra8UnormSrgb,
                     TextureFormat::Bgra8Unorm,
                     TextureFormat::Rgba8UnormSrgb,
